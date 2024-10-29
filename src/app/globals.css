@@ -1,0 +1,63 @@
+.body {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    height: 300px;
+    width: 750px;
+    text-align: center;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.watch {
+    font-size: 100px;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.add_btn {
+    height: 100px;
+    width: 350px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 70px;
+}
+
+.minuse_btn {
+    height: 100px;
+    width: 350px;
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+.watch :nth-child(1){
+    color: gray;
+}
+
+.watch :nth-child(2){
+    color: gray;
+}
+
+.watch :nth-child(3) {
+    color: orange;
+}
